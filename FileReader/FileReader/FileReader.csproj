@@ -45,6 +45,9 @@
     <Compile Include="Decryption\ReverseDecrypter.cs" />
     <Compile Include="IFileReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleBasedSecuritySystem\DummySecuritySystem.cs" />
+    <Compile Include="RoleBasedSecuritySystem\IRoleBasedSecuritySystem.cs" />
+    <Compile Include="RoleBasedSecuritySystem\RoleBasedSecurityDecorator.cs" />
     <Compile Include="TextReader.cs" />
     <Compile Include="XMLReader.cs" />
   </ItemGroup>

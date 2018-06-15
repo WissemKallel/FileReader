@@ -75,6 +75,7 @@
     <Compile Include="Decryption\DecryptionDecoratorTests.cs" />
     <Compile Include="Decryption\ReverseDecrypterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleBasedSecuritySystem\RoleBasedReadingTests.cs" />
     <Compile Include="TextReaderTests.cs" />
     <Compile Include="XMLReaderTests.cs" />
   </ItemGroup>
