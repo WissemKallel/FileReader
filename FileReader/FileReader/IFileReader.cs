@@ -19,4 +19,13 @@ namespace FileReader
         /// <returns> true if file reading succeeded, otherwise false </returns>
         bool TryReadFile(string filePath, out string output);
     }
+
+    public enum SupportedTypes
+    {
+        Text,
+        XML,
+        JSON,
+
+        //Add here new supported types
+    }
 }
