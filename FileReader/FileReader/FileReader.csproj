@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decryption\DecryptionDecorator.cs" />
+    <Compile Include="Decryption\IDecrypter.cs" />
+    <Compile Include="Decryption\ReverseDecrypter.cs" />
     <Compile Include="IFileReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextReader.cs" />
